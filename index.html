@@ -222,6 +222,25 @@ figure {
   margin-right: 10.0%;
 }
 
+.paper-btn-wide {
+  position: relative;
+  text-align: center;
+
+  display: inline-block;
+  margin: 8px;
+  padding: 8px 8px;
+
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  
+  background-color: #5364cc;
+  color: white !important;
+  font-size: 20px;
+  width: 200px;
+  font-weight: 600;
+}
+
 .paper-btn {
   position: relative;
   text-align: center;
@@ -240,6 +259,7 @@ figure {
   width: 100px;
   font-weight: 600;
 }
+
 .paper-btn-parent {
     display: flex;
     justify-content: center;
@@ -247,6 +267,10 @@ figure {
 }
 
 .paper-btn:hover {
+    opacity: 0.85;
+}
+
+.paper-btn-wide:hover {
     opacity: 0.85;
 }
 
@@ -434,7 +458,7 @@ pre {
         <center>
             <div class="author-row-new">
                 <a href="https://yilundu.github.io/">Yilun Du*<sup>12</sup></a>,
-                <a href="https://sherryy.github.io/">Mengjiao Yang*<sup>23</sup></a>,
+                <a href="https://sherryy.github.io/">Sherry Yang*<sup>23</sup></a>,
                 <a href="https://sites.google.com/site/daibohr/">Bo Dai<sup>2</sup></a>,
                 <a href="https://hanjun-dai.github.io/">Hanjun Dai<sup>2</sup></a>,
                 <a href="https://scholar.google.com/citations?user=C-ZlBWMAAAAJ&hl=en">Ofir Nachum<sup>2</sup></a>,
@@ -464,6 +488,10 @@ pre {
             <a class="paper-btn" href="https://arxiv.org/pdf/2302.00111.pdf">
                 <span class="material-icons"> description </span> 
                  Paper
+            </a>
+            <a class="paper-btn-wide" href="https://github.com/flow-diffusion/AVDC">
+                <span class="material-icons"> code </span> 
+                 Open Source Code
             </a>
         </div></div>
     </div>
